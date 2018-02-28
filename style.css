@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #777777;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    color: oldlace;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+section{
+    height: 200px;
+    background-color: orange;
+    float: left;
+    width: 495px;
+    position: relative;
+
+}
+
+article{
+    height: 150px;
+    width: 450px;
+    background-color: silver;
+    float: left;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+aside{
+    height: 200px;
+    background-color: olivedrab;
+
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    clear: both;
+    overflow: auto
+    
+}
